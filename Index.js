@@ -1,2 +1,4 @@
 const app = require("./App");
-app.listen(5000);
+require("dotenv");
+const URL = process.env.PORT || 5000;
+app.listen(URL);

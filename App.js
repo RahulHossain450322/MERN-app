@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+require("dotenv");
 const serverLess = require("serverless-http");
 const cors = require("cors");
 const User = require("./Model/user");
